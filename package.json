@@ -2,9 +2,8 @@
     "name": "test",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
     "scripts": {
-        "start": "webpack --color --process"
+        "start": "webpack --config ./webpack.conf.js --color --process"
     },
     "repository": {
         "type": "git",
