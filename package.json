@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "start": "webpack --config ./webpack.conf.js --color --process"
+        "clear": "rimraf dist",
+        "start": "webpack-dev-server --config ./webpack.conf.js --color --process"
     },
     "repository": {
         "type": "git",
